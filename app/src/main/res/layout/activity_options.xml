@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.nutritioncounter.Options">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="הצגת רכיבי מזון" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="רכיבי מזון למעקב" />
+
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="סוכר"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="כולסטרול"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="קלוריות"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="פרוטאין"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין A"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B1"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B2"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B3"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B6"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B9"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין B12"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין C"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין D"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין E"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ויטמין K"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="סידן"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="סיבים תזונתיים"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ברזל"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="אשלגן"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="מגנזיום"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="נתרן"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="זרחן"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="אבץ"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="שומן רב בלתי רווי"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="שומן טראנס"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="שומן רווי"
+        android:onClick="buttonchk"/>
+
+    <RadioButton
+        android:id="@+id/a27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="שומן חד בלתי רווי"
+        android:onClick="buttonchk"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="חזור" />
+
+</LinearLayout>
